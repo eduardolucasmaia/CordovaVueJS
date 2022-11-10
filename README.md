@@ -1,7 +1,8 @@
 # CordovaVueJS
 Projeto base do Cordova com VueJs
 
-```## Instalar NodeJS:
+```
+## Instalar NodeJS:
   https://nodejs.org/
 
 ## Instalar Android Studio:
