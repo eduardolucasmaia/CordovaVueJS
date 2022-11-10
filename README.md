@@ -1,20 +1,20 @@
-## CordovaVueJS
+# CordovaVueJS
 Projeto base do Cordova com VueJs
 
-# Instalar NodeJS:
+```## Instalar NodeJS:
   https://nodejs.org/
 
-# Instalar Android Studio:
+## Instalar Android Studio:
   https://developer.android.com/studio
 
-# Instalar Java SDK:
+## Instalar Java SDK:
   https://www.oracle.com/java/technologies/downloads/#java11-windows
 
-# Instalar Gradle Binary (Descompactar em C:\Program Files\Gradle\{zip}):
+## Instalar Gradle Binary (Descompactar em C:\Program Files\Gradle\{zip}):
   https://gradle.org/install/
 
 
-# Variáveis de ambiente (Sistema):
+## Variáveis de ambiente (Sistema):
   ANDROID_HOME
   C:\Users\{usuario}\AppData\Local\Android\Sdk
   ANDROID_SDK_ROOT
@@ -29,13 +29,13 @@ Projeto base do Cordova com VueJs
 
 ---------------
 
-# Android Studio:
+## Android Studio:
   Instalar Android 10
   Instalar SDK Tools 30.0.3
 
 ---------------
 
-# Comandos CMD:
+## Comandos CMD:
   npm install -g cordova
   npm install -g vue-cli
   npm i -g @vue/cli-init
@@ -45,7 +45,7 @@ Projeto base do Cordova com VueJs
 
 ---------------
 
-# O que fazer:
+## O que fazer:
   Apagar os arquivos da pasta www
 
   Alterar o arquivo ./index.html (Trocar <HEAD>)
@@ -59,7 +59,7 @@ Projeto base do Cordova com VueJs
       <script src="cordova.js"></script> 
   </head>
 
-# Alterar o arquivo ./config/index.js (trocar "dist" por "www")
+## Alterar o arquivo ./config/index.js (trocar "dist" por "www")
 build: {
   index: path.resolve(__dirname, ‘../www/index.html’),
   assetsRoot: path.resolve(__dirname, ‘../www’),
@@ -67,7 +67,7 @@ build: {
   
 ---------------
 
-# Possíveis comandos de plataformas:
+## Possíveis comandos de plataformas:
   cd MyApp
   cordova platform add windows
   cordova platform add browser
@@ -78,7 +78,7 @@ build: {
 
 ---------------
 
-# Possíveis comandos de execução:
+## Possíveis comandos de execução:
   npm run dev
   npm run build 
   cordova build android
@@ -90,7 +90,7 @@ build: {
 
 ## Build Setup
 
-``` bash
+bash
 # install dependencies
 npm install
 
